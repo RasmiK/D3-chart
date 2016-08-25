@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html ng-app="d3DemoApp">
+  <head>
+    <meta charset="utf-8">
+    <title>AngularJS + D3.js</title>
+    <script src="http://d3js.org/d3.v2.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.0.1/angular.js"></script>
+    <script src="app.js"></script>
+	<link rel="stylesheet" type="text/css" href="app.css">
+  </head>
+  <body ng-controller="AppCtrl">
+    <div class="container">
+	Please enter to see the result
+	 <form ng-submit="getCommitData()">
+		<input ng-model="searchKey"></input>
+	 </form>
+    <d3-graph class="chart" val="data"></d3-graph>
+	</div>
+  </body>
+</html>
