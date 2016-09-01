@@ -1,1 +1,1 @@
-https://cdn.rawgit.com/RasmiK/D3-chart/master/index.html
+http://cdn.rawgit.com/RasmiK/D3-chart/master/index.html
